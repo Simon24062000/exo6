@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.form-container {
+    width: 600px;
+    padding: 20px;
+    background: #fff;
+    box-sizing: border-box;
+    margin: auto;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.form-box {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 15px;
+    background-color: #fff;
+}
+
+.form-box .title {
+    display: inline-block;
+    background-color: #fff;
+    padding: 0 10px;
+    position: relative;
+    top: -22px;
+    left: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #fff;
+    color: #333;
+}
+
+.form-box .message-title {
+    display: inline-block;
+    background-color: #fff;
+    padding: 0 10px;
+    position: relative;
+    top: -22px;
+    left: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #fff;
+    color: #333;
+}
+
+.form-section {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #fff;
+}
+
+.form-section label {
+    display: inline-block;
+    width: 40%;
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-align: left;
+    position: relative;
+    top: 9px;
+}
+
+.form-section input,
+.form-section textarea {
+    width: 100%; /* Étend la zone de texte pour prendre toute la largeur */
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.form-section textarea {
+    resize: none;
+    height: 120px; /* Augmente la hauteur de la zone de texte */
+}
+
+.form-section input::placeholder,
+.form-section textarea::placeholder {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #888;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-actions button {
+    width: 48%;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #333;
+}
+
+.form-actions button[type="reset"],
+.form-actions button[type="submit"] {
+    background-color: #333;
+}
+
+.form-actions button[type="reset"]:hover,
+.form-actions button[type="submit"]:hover {
+    background-color: #555;
+}
+
+p.note {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    color: #666;
+}
+
+
+
