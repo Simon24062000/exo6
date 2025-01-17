@@ -5,10 +5,10 @@ function updateAsterisk(inputId) {
     const label = document.querySelector(`label[for="${inputId}"]`);
 
     if (input.value.trim() !== '') {
-        label.textContent = label.textContent.replace(' *', ''); // Retirer le *
+        label.textContent = label.textContent.replace(' *', ''); 
     } else {
         if (!label.textContent.includes('*')) {
-            label.textContent = label.textContent + ' *'; // Ajouter le *
+            label.textContent = label.textContent + ' *'; 
         }
     }
 }
@@ -23,7 +23,7 @@ function init() {
     fields.forEach(field => handleField(field));
 }
 
-document.addEventListener('DOMContentLoaded', init);
+document.addEventListener('DOMContentLoaded', init); //marche po
 
 
 
